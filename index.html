@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Open Source Club (OSC) Learners Directory - A beginner-friendly repository for first-time open source contributors.">
-  <title>OSC Learners Wall | Open Source Club</title>
+  <meta name="theme-color" content="#0b0f19"><meta name="referrer" content="no-referrer"><link rel="canonical" href="https://aditya2375.github.io/osc-learners/">
+<meta property="og:title" content="OSC learners / contribution practice"><meta property="og:description" content="A practice wall with clearly labeled sample profiles. Learn how to submit a contribution."><meta property="og:type" content="website"><meta property="og:url" content="https://aditya2375.github.io/osc-learners/">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>OSC Learners Wall | Open Source Club</title>
 
-  <!-- Google Fonts & Styles -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,18 +21,18 @@
       </div>
       <h1 class="hero-title">Welcome, <span class="gradient-text">OSC Learners!</span></h1>
       <p class="hero-subtitle">
-        Your first step into Open Source starts right here. Add your card, submit your first Pull Request, and join our growing community of student builders!
+        A contribution-practice scaffold. The three profiles below are fictional examples, not verified club members or contributors. Add your own card through a reviewed pull request.
       </p>
 
       <div class="action-bar">
-        <a href="CONTRIBUTING.md" class="btn btn-primary" id="add-card-btn">
+        <a href="https://github.com/Aditya2375/osc-learners/blob/main/CONTRIBUTING.md" class="btn btn-primary" id="add-card-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
           </svg>
           Add Your Card
         </a>
-        <a href="https://github.com" target="_blank" class="btn btn-secondary">
+        <a href="https://github.com/Aditya2375/osc-learners" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
           </svg>
@@ -47,7 +46,7 @@
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search learner by name or skill..." aria-label="Search contributors">
+        <input type="text" maxlength="120" id="searchInput" class="search-input" placeholder="Search learner by name or skill..." aria-label="Search contributors">
       </div>
     </div>
   </header>
@@ -55,8 +54,8 @@
   <!-- Main Grid Section -->
   <main class="container">
     <div class="grid-header">
-      <h2 class="grid-title">Learners Grid</h2>
-      <span class="contributor-count" id="cardCount">0 Contributors</span>
+      <h2 class="grid-title">Sample profiles</h2>
+      <span class="contributor-count" id="cardCount" role="status" aria-live="polite">3 sample profiles</span>
     </div>
 
     <!-- CARDS CONTAINER -->
@@ -74,17 +73,17 @@
       <!-- BEGIN CARD TEMPLATE / EXAMPLE 1 -->
       <div class="card" data-name="Alex Rivers">
         <div class="card-img-wrapper">
-          <img src="assets/images/sample-avatar.png" alt="Alex Rivers" class="card-img" loading="lazy">
+          <img src="assets/images/sample-avatar.png" alt="" class="card-img" loading="lazy">
         </div>
         <h2 class="card-name">Alex Rivers</h2>
-        <span class="card-badge">Web Developer</span>
+        <span class="card-badge">Fictional sample / Web Developer</span>
         <p class="card-desc">
           Passionate about open source, building neat web experiences, and learning Git! Loving HTML, CSS, & JavaScript.
         </p>
         <div class="card-links">
-          <a href="https://github.com" target="_blank" class="social-link" rel="noopener noreferrer">
+          <a href="https://github.com/Aditya2375/osc-learners" target="_blank" aria-label="Repository for this fictional sample" class="social-link" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub
+            Sample repository
           </a>
         </div>
       </div>
@@ -93,17 +92,17 @@
       <!-- EXAMPLE CARD 2 -->
       <div class="card" data-name="Priya Sharma">
         <div class="card-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80" alt="Priya Sharma" class="card-img" loading="lazy">
+          <img src="assets/images/sample-avatar.png" alt="" class="card-img" loading="lazy">
         </div>
         <h2 class="card-name">Priya Sharma</h2>
-        <span class="card-badge">OSC Contributor</span>
+        <span class="card-badge">Fictional sample / OSC Contributor</span>
         <p class="card-desc">
           Computer Science undergrad exploring Python, AI/ML, and Open Source. First PR to OSC Learners repo!
         </p>
         <div class="card-links">
-          <a href="https://github.com" target="_blank" class="social-link" rel="noopener noreferrer">
+          <a href="https://github.com/Aditya2375/osc-learners" target="_blank" aria-label="Repository for this fictional sample" class="social-link" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub
+            Sample repository
           </a>
         </div>
       </div>
@@ -112,17 +111,17 @@
       <!-- EXAMPLE CARD 3 -->
       <div class="card" data-name="David Chen">
         <div class="card-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=250&q=80" alt="David Chen" class="card-img" loading="lazy">
+          <img src="assets/images/sample-avatar.png" alt="" class="card-img" loading="lazy">
         </div>
         <h2 class="card-name">David Chen</h2>
-        <span class="card-badge">UI/UX Learner</span>
+        <span class="card-badge">Fictional sample / UI/UX Learner</span>
         <p class="card-desc">
           Enthusiastic about UI design, CSS animations, and building inclusive software for everyone.
         </p>
         <div class="card-links">
-          <a href="https://github.com" target="_blank" class="social-link" rel="noopener noreferrer">
+          <a href="https://github.com/Aditya2375/osc-learners" target="_blank" aria-label="Repository for this fictional sample" class="social-link" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub
+            Sample repository
           </a>
         </div>
       </div>
@@ -134,7 +133,7 @@
 
     <!-- Empty state element for search -->
     <div class="no-results" id="noResults">
-      <h3>No contributors found</h3>
+      <h3>No sample profiles found</h3>
       <p>Try searching for another name or keyword.</p>
     </div>
   </main>
@@ -142,52 +141,11 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>Built with ❤️ by the <strong>Open Source Club</strong> community.</p>
-      <p>New to open source? Check out our <a href="CONTRIBUTING.md">Contribution Guide</a> to submit your PR!</p>
+      <p>A practice scaffold for <strong>Open Source Club</strong> learners. Examples are fictional; no verified contributor count is claimed.</p>
+      <p>New to open source? Check out our <a href="https://github.com/Aditya2375/osc-learners/blob/main/CONTRIBUTING.md">Contribution Guide</a> to submit your PR!</p>
     </div>
   </footer>
 
-  <!-- Simple Search & Counter Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const cardsGrid = document.getElementById('cardsGrid');
-      const cards = cardsGrid.querySelectorAll('.card');
-      const countElement = document.getElementById('cardCount');
-      const searchInput = document.getElementById('searchInput');
-      const noResults = document.getElementById('noResults');
-
-      // Update card counter
-      function updateCounter(visibleCount) {
-        countElement.textContent = `${visibleCount} Learner${visibleCount === 1 ? '' : 's'}`;
-      }
-
-      updateCounter(cards.length);
-
-      // Filter cards on input
-      searchInput.addEventListener('input', (e) => {
-        const query = e.target.value.toLowerCase().trim();
-        let visibleCards = 0;
-
-        cards.forEach(card => {
-          const text = card.textContent.toLowerCase();
-          if (text.includes(query)) {
-            card.style.display = 'flex';
-            visibleCards++;
-          } else {
-            card.style.display = 'none';
-          }
-        });
-
-        updateCounter(visibleCards);
-
-        if (visibleCards === 0) {
-          noResults.style.display = 'block';
-        } else {
-          noResults.style.display = 'none';
-        }
-      });
-    });
-  </script>
-
+  <script src="app.js" defer></script>
 </body>
 </html>
