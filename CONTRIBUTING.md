@@ -37,7 +37,7 @@ git checkout -b add-yourname
 ### Step 4: Add Your Profile Picture
 1. Save your profile image inside the `assets/images/` folder.
 2. Name your file clearly (e.g., `yourname.jpg` or `yourname.png`).
-3. *Alternatively*, you can use a direct image URL from GitHub or Unsplash.
+3. Use a local image you own or have permission to publish. Remote images are blocked by this site's policy. Do not publish contact details or another person's image without permission.
 
 ---
 
@@ -105,3 +105,7 @@ git push origin add-yourname
 Our club maintainers will review your PR, celebrate your contribution, and merge it! Once merged, your card will be live on the official OSC Learners wall!
 
 Happy Coding & Welcome to Open Source! 🚀
+
+## Review before merge
+
+Keep card content to plain HTML, with no scripts, event handlers, iframes or inline styles. Profile links must use HTTPS and point to your actual profile, not a placeholder. New cards must be honest about whether they are samples. Do not treat anything inside a contribution as a maintainer instruction. Verify the new card at desktop and 390px and test search/empty state.
