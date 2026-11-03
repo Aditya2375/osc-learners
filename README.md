@@ -1,6 +1,6 @@
 # 🌐 Open Source Club (OSC) - Learners Wall
 
-Welcome to the official **Open Source Club (OSC) Learners** repository! 🎓
+Welcome to the practice **Open Source Club (OSC) Learners** repository! 🎓
 
 This project is an interactive, beginner-friendly web application designed for students and new developers to make their very first Git & GitHub contribution.
 
@@ -38,7 +38,7 @@ No `npm install` or build command is required!
 
 1. Simply clone the repository:
    ```bash
-   git clone https://github.com/YOUR-ORGANIZATION/osc-learners.git
+   git clone https://github.com/Aditya2375/osc-learners.git
    ```
 2. Open `index.html` directly in your favorite browser, or use VS Code's **Live Server** extension.
 
@@ -53,3 +53,9 @@ Need help with Git commands or fixing your Pull Request?
 ---
 
 *Made with passion by the Open Source Club maintainers & awesome student contributors.*
+
+## Current demo and privacy
+
+Live: https://aditya2375.github.io/osc-learners/
+
+The three starter profiles are fictional samples, not verified club contributors. Their links lead to this repository, not personal accounts. Search/count run locally. No analytics, API, accounts, database, submissions backend or remote image/font requests. Submitted card content is public: use only your own image and details you want published. Maintainers must review links, images and HTML for unsafe content before merge.
