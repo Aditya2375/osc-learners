@@ -2,7 +2,7 @@
    Open Source Club (OSC) - Learners Card Grid Stylesheet
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
 
 :root {
   /* Color Palette */
@@ -444,3 +444,4 @@ footer a:hover {
     justify-content: center;
   }
 }
+[hidden]{display:none!important}.no-results:not([hidden]){display:block}.card{min-width:0}.card-desc{overflow-wrap:anywhere}:focus-visible{outline:3px solid #a5b4fc;outline-offset:4px}.btn,.social-link{min-height:44px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
